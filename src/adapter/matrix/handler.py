@@ -115,8 +115,10 @@ class Handler(AbstractHandler):
         # this is some example sending, should be replaced by your own logic.
         time.sleep(0.25)
         if label.name == "open":
+            # TODO ACTION ON REAL SUT
             self.send_message_to_amp("opened")
         elif label.name == "close":
+            # TODO ACTION ON REAL SUT
             self.send_message_to_amp("closed")
 
     # TODO This method should contain the labels your SUT supports
